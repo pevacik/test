@@ -8,8 +8,23 @@
 .page_body {
   min-width: 320px;
   margin: 0;
-  background: linear-gradient(68.56deg, rgba(170, 203, 240, 0.25) 11.33%, rgba(170, 203, 240, 0.75) 64.1%), url("../../img/Background_tablet.jpg") no-repeat;
+  background: linear-gradient(68.56deg, rgba(170, 203, 240, 0.25) 11.33%, rgba(170, 203, 240, 0.75) 64.1%), url("../../img/Background_phone.jpg") no-repeat;
+  background-attachment: fixed;
   background-size: 100%;
+}
+@media (min-width: 768px) {
+  .page_body {
+    background: linear-gradient(68.56deg, rgba(170, 203, 240, 0.25) 11.33%, rgba(170, 203, 240, 0.75) 64.1%), url("../../img/Background_tablet.jpg") no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .page_body {
+    background: linear-gradient(68.56deg, rgba(170, 203, 240, 0.25) 11.33%, rgba(170, 203, 240, 0.75) 64.1%), url("../../img/Background_desktop.jpg") no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+  }
 }
 a {
   text-decoration: none;
