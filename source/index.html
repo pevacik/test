@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
@@ -21,87 +21,122 @@
   <body class="page_body">
     <div class="heading-wraper">
       <h1 class="main_heading">Номера и цены</h1>
-      </div>
+    </div>
     <div class="main_wrapper">
-
       <div class="hotel_lists">
-        <div class="wrapper-reservation ">
-        <div id="main_luxury_js" class="hotel_lists--main_luxury">
-          <ul>
-            <a class="main_luxury--heading" href="#">Представительскй люкс</a></li>
+        <div class="wrapper-reservation">
+          <div id="main_luxury_js" class="hotel_lists--main_luxury">
+            <ul>
+              <li>
+                <a class="main_luxury--heading" href="#"
+                  >Представительскй люкс</a
+                >
+              </li>
+              <li>
+                <p class="main_luxury--text">
+                  Эксклюзивные номера с панорамным видом на центр города Москвы
+                </p>
+              </li>
+            </ul>
+            <ul class="desktop-price-vision">
+              <li class="main_luxury--price">
+                Цена за сутки<br />
+                <span class="main_luxury--price__roboto-text">от </span>
+                <span class="main_luxury--price__roboto-number"> 7 900</span>
+                <span class="main_luxury--price__open-sans-text">₽</span>
+              </li>
+              <li>
+                <a class="button button-reservation" href="#">Забранировать</a>
+              </li>
+            </ul>
+          </div>
+          <ul class="desktop-price-vision-reserved" id="main_luxury--remove">
             <li>
-              <p class="main_luxury--text">
-                Эксклюзивные номера с панорамным видом на центр города Москвы
+              <p class="desktop-price-vision-reserved__text">
+                Номер зарезервирован <br />
+                Перейти к
+                <a class="desktop-price-vision-reserved__paid" href="#"
+                  >оплате</a
+                >
               </p>
             </li>
           </ul>
-          <ul class="desktop-price-vision">
-            <li class="main_luxury--price">
-              Цена за сутки<br />
-              <span class="main_luxury--price__roboto-text">от </span>
-              <span class="main_luxury--price__roboto-number"> 7 900 р </span>
-            </li>
-            <li><a class="button button-reservation" href="#">Забранировать</a></li>
-          </ul>
         </div>
-        <ul class="desktop-price-vision-reserved " id="main_luxury--remove">
-          <li>
-            <p class="desktop-price-vision-reserved__text">Номер зарезервирован <br>
-            Перейти к <a class="desktop-price-vision-reserved__paid" href="#">оплате</a></p>
-          </li>
-        </ul>
-      </div>
-      <div class="wrapper-reservation ">
-        <div id="duplex_js" class="hotel_lists--duplex">
-          <ul>
-            <a class="duplex-heading" href="#">Дуплекс</a></li>
+        <div class="wrapper-reservation">
+          <div id="duplex_js" class="hotel_lists--duplex">
+            <ul>
+              <li>
+                <a class="duplex-heading" href="#">Дуплекс</a>
+              </li>
+              <li>
+                <p class="duplex-text">
+                  Просторный двухкомнатный номер с шикарным видом на парк
+                </p>
+              </li>
+            </ul>
+            <ul class="desktop-price-vision">
+              <li class="duplex-price">
+                Цена за сутки<br />
+                <span class="duplex-price__roboto-text">от</span>
+                <span class="duplex-price__roboto-number">5 700</span>
+                <span class="duplex-price__open-sans-text">₽</span>
+              </li>
+              <li>
+                <a class="button button-reservation2" href="#">Забранировать</a>
+              </li>
+            </ul>
+          </div>
+          <ul id="duplex--remove" class="desktop-price-vision-reserved">
             <li>
-              <p class="duplex-text">
-                Просторный двухкомнатный номер с шикарным видом на парк
+              <p class="desktop-price-vision-reserved__text">
+                Номер зарезервирован <br />
+                Перейти к
+                <a class="desktop-price-vision-reserved__paid" href="#"
+                  >оплате</a
+                >
               </p>
             </li>
-          </ul><ul class="desktop-price-vision">
-            <li class="duplex-price">
-              Цена за сутки<br />
-              <span class="duplex-price__roboto-text">от</span>
-              <span class="duplex-price__roboto-number">5 700 р</span>
-            </li>
-            <li><a class="button button-reservation2" href="#" >Забранировать</a></li>
           </ul>
         </div>
-        <ul id="duplex--remove" class="desktop-price-vision-reserved">
-          <li>
-            <p class="desktop-price-vision-reserved__text">Номер зарезервирован <br>
-            Перейти к <a class="desktop-price-vision-reserved__paid" href="#">оплате</a></p>
-          </li>
-        </ul>
-      </div>
-      <div class="wrapper-reservation ">
-        <div id="buisnes_luxury_js" class="hotel_lists--buisnes_luxury">
-          <ul>
-            <a class="buisnes_luxury--heading" href="#">Бизнес-люкс</a></li>
+        <div class="wrapper-reservation">
+          <div id="buisnes_luxury_js" class="hotel_lists--buisnes_luxury">
+            <ul>
+              <li>
+                <a class="buisnes_luxury--heading" href="#">Бизнес-люкс</a>
+              </li>
+              <li>
+                <p class="buisnes_luxury--text">
+                  Трехкомнатный номер с панорамным видом на<br
+                    class="break_word"
+                  />
+                  Москва-реку
+                </p>
+              </li>
+            </ul>
+            <ul class="desktop-price-vision">
+              <li class="buisnes_luxury--price">
+                Цена за сутки<br />
+                <span class="buisnes_luxury--price__roboto-text">от</span>
+                <span class="buisnes_luxury--price__roboto-number">4 900 </span
+                ><span class="buisnes_luxury--price__open-sans-text">₽</span>
+              </li>
+              <li>
+                <a class="button button-reservation3" href="#">Забранировать</a>
+              </li>
+            </ul>
+          </div>
+          <ul id="buisnes_luxury--remove" class="desktop-price-vision-reserved">
             <li>
-              <p class="buisnes_luxury--text">
-                Трехкомнатный номер с панорамным видом на<br class="break_word">
-                Москва-реку
+              <p class="desktop-price-vision-reserved__text">
+                Номер зарезервирован <br />
+                Перейти к
+                <a class="desktop-price-vision-reserved__paid" href="#"
+                  >оплате</a
+                >
               </p>
             </li>
-          </ul><ul class="desktop-price-vision">
-            <li class="buisnes_luxury--price">
-              Цена за сутки<br />
-              <span class="buisnes_luxury--price__roboto-text">от</span>
-              <span class="buisnes_luxury--price__roboto-number">4 900 р</span>
-            </li>
-            <li><a class="button button-reservation3" href="#">Забранировать</a></li>
           </ul>
         </div>
-        <ul id="buisnes_luxury--remove" class="desktop-price-vision-reserved">
-          <li>
-            <p class="desktop-price-vision-reserved__text">Номер зарезервирован <br>
-            Перейти к <a class="desktop-price-vision-reserved__paid" href="#">оплате</a></p>
-          </li>
-        </ul>
-      </div>
       </div>
     </div>
     <script src="js/reservation.js"></script>

@@ -8,20 +8,20 @@
 .page_body {
   min-width: 320px;
   margin: 0;
-  background: linear-gradient(68.56deg, rgba(170, 203, 240, 0.25) 11.33%, rgba(170, 203, 240, 0.75) 64.1%), url("../../img/Background_phone.jpg") no-repeat;
+  background: linear-gradient(68.56deg, rgba(170, 203, 240, 0.25) 11.33%, rgba(170, 203, 240, 0.75) 64.1%), url("../img/Background_phone.jpg") no-repeat;
   background-attachment: fixed;
   background-size: 100%;
 }
 @media (min-width: 768px) {
   .page_body {
-    background: linear-gradient(68.56deg, rgba(170, 203, 240, 0.25) 11.33%, rgba(170, 203, 240, 0.75) 64.1%), url("../../img/Background_tablet.jpg") no-repeat;
+    background: linear-gradient(68.56deg, rgba(170, 203, 240, 0.25) 11.33%, rgba(170, 203, 240, 0.75) 64.1%), url("../img/Background_tablet.jpg") no-repeat;
     background-attachment: fixed;
     background-size: 100%;
   }
 }
 @media (min-width: 1200px) {
   .page_body {
-    background: linear-gradient(68.56deg, rgba(170, 203, 240, 0.25) 11.33%, rgba(170, 203, 240, 0.75) 64.1%), url("../../img/Background_desktop.jpg") no-repeat;
+    background: linear-gradient(68.56deg, rgba(170, 203, 240, 0.25) 11.33%, rgba(170, 203, 240, 0.75) 64.1%), url("../img/Background_desktop.jpg") no-repeat;
     background-attachment: fixed;
     background-size: 100%;
   }
@@ -93,7 +93,7 @@ h2 {
 .hotel_lists--main_luxury:hover::before,
 .hotel_lists--duplex:hover::before,
 .hotel_lists--buisnes_luxury:hover::before {
-  content: url("../../img/hover-popup.svg");
+  content: url("../img/hover-popup.svg");
   position: absolute;
   top: 28px;
 }
@@ -157,7 +157,7 @@ h2 {
 .hotel_lists--main_luxury {
   width: 288px;
   height: 347px;
-  background: linear-gradient(180deg, rgba(10, 34, 64, 0.1) 0%, #0a2240 100%), url("../../img/main_luxury-desktop.jpg") no-repeat;
+  background: linear-gradient(180deg, rgba(10, 34, 64, 0.1) 0%, #0a2240 100%), url("../img/main_luxury-desktop.jpg") no-repeat;
   border-radius: 14px;
   padding: 77px 21px 0 21px;
   margin-bottom: 32px;
@@ -246,10 +246,17 @@ h2 {
     font-size: 24px;
   }
 }
+.main_luxury--price__open-sans-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 400;
+  opacity: 0.6;
+}
 .hotel_lists--duplex {
   width: 288px;
   height: 347px;
-  background: linear-gradient(180deg, rgba(10, 34, 64, 0.1) 0%, #0a2240 100%), url("../../img/duplex-desktop.jpg") no-repeat;
+  background: linear-gradient(180deg, rgba(10, 34, 64, 0.1) 0%, #0a2240 100%), url("../img/duplex-desktop.jpg") no-repeat;
   border-radius: 14px;
   padding: 98px 20px 0 20px;
   margin-bottom: 32px;
@@ -335,10 +342,17 @@ h2 {
     line-height: 32px;
   }
 }
+.duplex-price__open-sans-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 400;
+  opacity: 0.6;
+}
 .hotel_lists--buisnes_luxury {
   width: 288px;
   height: 347px;
-  background: linear-gradient(180deg, rgba(10, 34, 64, 0.1) 0%, #0a2240 100%), url("../../img/buisnes_luxury-desktop.jpg") no-repeat;
+  background: linear-gradient(180deg, rgba(10, 34, 64, 0.1) 0%, #0a2240 100%), url("../img/buisnes_luxury-desktop.jpg") no-repeat;
   border-radius: 14px;
   padding: 77px 21px;
   margin-bottom: 32px;
@@ -425,6 +439,13 @@ h2 {
     font-size: 24px;
     line-height: 32px;
   }
+}
+.buisnes_luxury--price__open-sans-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 400;
+  opacity: 0.6;
 }
 @media (min-width: 1200px) {
   .desktop-price-vision {
